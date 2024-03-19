@@ -1,0 +1,13 @@
+@use 'font';
+
+
+@import 'header';
+@import 'main';
+@import 'tablet';
+@import 'mobile';
+
+
+body {
+    font-family: font.$main-font;
+    background-color: black;
+}

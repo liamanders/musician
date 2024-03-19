@@ -1,0 +1,46 @@
+
+header {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+  gap: 12rem;
+  max-width: 80%;
+  max-height: 3rem;
+  margin: 3rem auto;
+}
+  
+.logo {
+  display: flex;
+  justify-self: start;
+  font-size: 24px;
+  font-weight: 300;
+
+  &:hover {
+      color: #686868;
+    }
+}
+  
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-list {
+  display: none;
+}
+  
+.header-nav__list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 16px;
+  font-weight: 200;
+
+  
+   
+    
+  & a:hover {
+    color: #686868;
+  }
+}
